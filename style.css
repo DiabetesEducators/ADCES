@@ -1,0 +1,13 @@
+.county {
+  transition: all 0.2s ease;
+}
+
+.county:hover {
+  stroke: black;
+  stroke-width: 2;
+  filter: drop-shadow(0 0 2px #000);
+  cursor: pointer;
+}
+@charset "utf-8";
+/* CSS Document */
+
