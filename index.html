@@ -440,10 +440,6 @@
   </g>
 </svg>
 
-  <input type="color" id="colorPicker">
-  <button onclick="downloadMap()">Download Map</button>
-
-  <script src="script.js"></script>
 
 <body>
 
@@ -451,7 +447,22 @@
   <svg ...>
     <!-- Your counties, shapes, etc. -->
   </svg>
+	
 
   <script src="script.js"></script>
+<!-- Custom Text Controls -->
+<div style="margin-top: 20px;">
+	 <input type="color" id="colorPicker" value="#00aaff">
+<input type="text" id="customText">
+<input type="number" id="fontSize" value="40">
+<button onclick="addCustomText()">Add Custom Text</button>
+<button onclick="addPresetBubble()">Add Bubble Shape</button>
+<button onclick="downloadMap()">Download Map</button>
+	
+<script src="script.js"></script>
+
+
+</div>
+	
 </body>
 
